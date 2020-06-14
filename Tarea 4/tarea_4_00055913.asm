@@ -77,7 +77,7 @@ txt10:	mov 	dx, msg11
 	
 stop:   
         call 	w_strng
-	call 	kb	; solo detenemos la ejecución
+	call 	kb	
 	int 	20h
 
 
